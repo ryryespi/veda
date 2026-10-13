@@ -1,0 +1,213 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.5, pytest-9.1.1, pluggy-1.6.0 -- /workspace/veda/.venv/bin/python
+cachedir: .pytest_cache
+hypothesis profile 'veda' -> database=None, deadline=None, max_examples=300, derandomize=True
+rootdir: /workspace/veda
+configfile: pyproject.toml
+testpaths: tests
+plugins: hypothesis-6.169.0
+collecting ... collected 28 items
+
+tests/test_alpha.py::test_softmax_in_simplex PASSED                      [  3%]
+tests/test_alpha.py::test_thm2_blend_between_min_and_max PASSED          [  7%]
+tests/test_alpha.py::test_thm3_lipschitz_in_x PASSED                     [ 10%]
+tests/test_alpha.py::test_thm4_lipschitz_in_theta PASSED                 [ 14%]
+tests/test_alpha.py::test_prop1_psi_range_and_constants PASSED           [ 17%]
+tests/test_alpha.py::test_prop1_daily_is_convex_blend PASSED             [ 21%]
+tests/test_alpha.py::test_prop1_daily_lipschitz PASSED                   [ 25%]
+tests/test_alpha.py::test_blended_daily_scores_bounded PASSED            [ 28%]
+tests/test_mental.py::test_creatures_exact PASSED                        [ 32%]
+tests/test_mental.py::test_creature_dag_counts PASSED                    [ 35%]
+tests/test_mental.py::test_cycle_detected PASSED                         [ 39%]
+tests/test_mental.py::test_thm5_random_dag_terminates_with_exact_counts PASSED [ 42%]
+tests/test_mental.py::test_thm6_bounded_and_nonexpansive PASSED          [ 46%]
+tests/test_mental.py::test_creature_needs_and_activations_in_unit_interval PASSED [ 50%]
+tests/test_peace.py::test_thm7_spread_monotone_and_contracts PASSED      [ 53%]
+tests/test_peace.py::test_thm7_converges_to_pi_weighted_consensus PASSED [ 57%]
+tests/test_peace.py::test_metropolis_doubly_stochastic_gives_average PASSED [ 60%]
+tests/test_peace.py::test_creature_harmony_matrices PASSED               [ 64%]
+tests/test_peace.py::test_thm8_nash_unique_pareto PASSED                 [ 67%]
+tests/test_peace.py::test_thm9_banach_contraction PASSED                 [ 71%]
+tests/test_pipeline.py::test_thm10_pipeline_bounded PASSED               [ 75%]
+tests/test_pipeline.py::test_thm10_settled_activation_is_1_lipschitz PASSED [ 78%]
+tests/test_pipeline.py::test_crisis_gate_blocks_scoring PASSED           [ 82%]
+tests/test_veritas.py::test_constant_identities PASSED                   [ 85%]
+tests/test_veritas.py::test_constants_are_immutable PASSED               [ 89%]
+tests/test_veritas.py::test_value_weights_are_normalized_psi_weights PASSED [ 92%]
+tests/test_veritas.py::test_random_update_sequences_preserve_invariants PASSED [ 96%]
+tests/test_veritas.py::test_simplex_projection_is_idempotent_and_optimal PASSED [100%]
+
+------------- generated xml file: /workspace/veda/paper/pytest.xml -------------
+============================ Hypothesis Statistics =============================
+tests/test_alpha.py::test_softmax_in_simplex:
+
+  - during generate phase (0.23 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_alpha.py::test_thm2_blend_between_min_and_max:
+
+  - during generate phase (0.22 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_alpha.py::test_thm3_lipschitz_in_x:
+
+  - during generate phase (0.22 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_alpha.py::test_thm4_lipschitz_in_theta:
+
+  - during generate phase (0.23 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_alpha.py::test_prop1_daily_is_convex_blend:
+
+  - during generate phase (0.22 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 27 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_alpha.py::test_prop1_daily_lipschitz:
+
+  - during generate phase (0.27 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 10 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_alpha.py::test_blended_daily_scores_bounded:
+
+  - during generate phase (0.32 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 82 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_mental.py::test_thm5_random_dag_terminates_with_exact_counts:
+
+  - during generate phase (0.23 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_mental.py::test_thm6_bounded_and_nonexpansive:
+
+  - during generate phase (0.24 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_mental.py::test_creature_needs_and_activations_in_unit_interval:
+
+  - during generate phase (0.26 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 25 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_peace.py::test_thm7_spread_monotone_and_contracts:
+
+  - during generate phase (0.33 seconds):
+    - Typical runtimes: ~ 0-1 ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_peace.py::test_thm7_converges_to_pi_weighted_consensus:
+
+  - during generate phase (0.36 seconds):
+    - Typical runtimes: ~ 0-1 ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_peace.py::test_metropolis_doubly_stochastic_gives_average:
+
+  - during generate phase (0.26 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_peace.py::test_thm8_nash_unique_pareto:
+
+  - during generate phase (0.95 seconds):
+    - Typical runtimes: ~ 2-3 ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_peace.py::test_thm9_banach_contraction:
+
+  - during generate phase (0.38 seconds):
+    - Typical runtimes: ~ 0-1 ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_pipeline.py::test_thm10_pipeline_bounded:
+
+  - during generate phase (0.50 seconds):
+    - Typical runtimes: ~ 0-1 ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 21 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_pipeline.py::test_thm10_settled_activation_is_1_lipschitz:
+
+  - during generate phase (0.30 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 13 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_veritas.py::test_random_update_sequences_preserve_invariants:
+
+  - during generate phase (0.31 seconds):
+    - Typical runtimes: ~ 0-1 ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+tests/test_veritas.py::test_simplex_projection_is_idempotent_and_optimal:
+
+  - during generate phase (0.28 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+============================== 28 passed in 6.28s ==============================

@@ -1,0 +1,17 @@
+Project Veda demo (example values, not real data)
+  input C,S,M,R,B = [0.4, 0.6, 0.3, 0.7, 0.8]
+  Psi = -0.2380   Daily Score = 32.87   blended Daily = 34.31
+  equations: {'literature': 32.87, 'conservative': 34.05, 'equal': 36.0} alpha = [0.3333, 0.3333, 0.3333]
+  Mistfawn   (calm      ) need=0.600 h=0.600 z*=0.627 consensus=0.203 alloc=0.202
+  Tidelyn    (connection) need=0.400 h=0.400 z*=0.478 consensus=0.174 alloc=0.179
+  Lumowl     (reflection) need=0.800 h=0.740 z*=0.702 consensus=0.217 alloc=0.214
+  Brakkor    (courage   ) need=0.700 h=0.661 z*=0.637 consensus=0.205 alloc=0.204
+  Hivewright (discipline) need=0.700 h=0.662 z*=0.619 consensus=0.201 alloc=0.201
+  recommendation: Lumowl (reflection): try Check the Facts
+   Reflection aid only, not therapy or diagnosis. Crisis (US): call or text 988.
+  DeGroot spread: t=0 0.4000, t=10 2.147e-02, t=30 2.476e-04; steps to <1e-6: 55; |lambda_2| = 0.8000
+  Banach residual: k=0 7.020e-01, k=10 6.043e-04, k=20 5.849e-07
+  random graphs: {'n': 4, 'mean_ratio': 0.15180443709593813, 'max_ratio': 0.4956867344854711, 'mean_bound': 0.7828105345805798, 'violations': 0, 'median_steps': 32.0, 'max_steps': 110}
+  random graphs: {'n': 8, 'mean_ratio': 0.027849938511843454, 'max_ratio': 0.2879157650964433, 'mean_bound': 0.7315771056543684, 'violations': 0, 'median_steps': 36.0, 'max_steps': 144}
+  random graphs: {'n': 16, 'mean_ratio': 0.00019174557854055086, 'max_ratio': 0.00648223834231082, 'mean_bound': 0.6931479309312146, 'violations': 0, 'median_steps': 28.0, 'max_steps': 67}
+  crisis gate: crisis=True, score suppressed=True
